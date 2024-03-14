@@ -7,8 +7,8 @@ import sys
 # Main
 def main():
     filename = sys.argv[1] # take singleton list from second element (index 1) of terminal input
-    #filename1 = "unique-64" # take singleton list from project folder
-    #filename2 = "unique-180" # take singleton list from project folder
+    #filename1 = "unique-64"
+    #filename2 = "unique-180"
     file = open(filename, "r") # open file
     nums = [] # create list to store numbers (pairs and unique singleton)
     for line in file: # iterate through lines (the numbers) in file
